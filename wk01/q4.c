@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    char str[10];
+    char str[10] = { 0 };
     str[0] = 'H';
     str[1] = 'i';
 
