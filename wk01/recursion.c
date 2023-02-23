@@ -17,7 +17,7 @@ int factorial(int n) {
 int main(void)
 {
     int n;
-    printf("Enter a number:\n");
+    printf("Enter a number: ");
     scanf("%d", &n);
     printf("%d\n", factorial(n)); 
     return 0;
